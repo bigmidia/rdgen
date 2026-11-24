@@ -573,8 +573,8 @@ jobs:
       - name: Checkout printer-adapter crate
         uses: actions/checkout@v7
         with:
-          repository: bryangerlach/rdgen
-          ref: master
+          repository: bigmidia/rdgen
+          ref: bigmidia-stable
           path: ./temp-repo
 
       - name: Move printer-adapter into place
